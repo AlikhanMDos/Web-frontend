@@ -1,0 +1,327 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, nav {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the main content area */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the article headings */
+article h3 {
+    color: #333;
+}
+
+/* Style the article date */
+article time {
+    font-style: italic;
+    color: #666;
+}
+
+/* Style images within articles */
+article img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Style the footer section */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style the weather section */
+#weather {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the individual news sections */
+section {
+    margin-top: 20px;
+}
+
+/* Add specific styling for different news categories */
+#politics h2 {
+    color: #e74c3c;
+}
+
+#business h2 {
+    color: #3498db;
+}
+
+#culture h2 {
+    color: #f39c12;
+}
+
+#sports h2 {
+    color: #2ecc71;
+}
+
+/* Style the footer copyright text */
+footer p {
+    font-size: 14px;
+}
+
+/* CSS for the Right Sidebar */
+#sidebar {
+    float: right; /* Float the sidebar to the right */
+    width: 25%; /* Adjust the width as needed */
+    background-color: #f5f5f5;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#sidebar h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    margin-bottom: 10px;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#sidebar ul li a:hover {
+    color: #ff6600;
+}
+
+
+
+
+/* CSS for the Weather Forecast Section */
+#weather {
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#weather h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#weather p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Weather Cards */
+.weather-card {
+    display: inline-block;
+    width: calc(14.28% - 10px); /* Adjust card width for 7 cards in a row */
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-right: 10px; /* Add spacing between cards */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.weather-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.weather-card img {
+    max-width: 100px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.weather-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+
+/* CSS for Navigation Menu */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s; /* Add a smooth transition for color changes */
+}
+
+/* Hover Styles */
+nav a:hover {
+    color: #ff6600; /* Change the text color on hover */
+}
+
+/* Focus Styles */
+nav a:focus {
+    outline: 2px solid #ff6600; /* Add an outline on focus for accessibility */
+}
+
+
+
+
+
+/* Style the Economy section */
+#economy {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+/* Style the Exchange Rate Headings */
+#economy h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Style the Exchange Rate Information */
+#economy p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Style the Current Exchange Rate Strong Text */
+#economy strong {
+    font-size: 1.3em;
+    color: #e74c3c; /* Red color for emphasis */
+}
+
+/* Style the Exchange Rate Trends List */
+#economy ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Style the Exchange Rate Trends List Items */
+#economy li {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Add more CSS styles as needed */
+
+
+
+
+/* Style images depicting exchange rate trends */
+.exchange-image {
+    max-width: 15%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the "Tech" section */
+#tech {
+    border: 2px solid #0078d4; /* Add a border with a blue color */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+/* Style non-visited links in the "Tech" section */
+#tech a {
+    text-decoration: none; /* Remove underline */
+    color: #0078d4; /* Default link color */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+/* Style visited links in the "Tech" section */
+#tech a:visited {
+    color: #4b0082; /* Visited link color (purple) */
+}
+
+/* Style links on hover in the "Tech" section */
+#tech a:hover {
+    color: #ff6600; /* Hovered link color (orange) */
+}
+
+/* Style links when they are in focus in the "Tech" section */
+#tech a:focus {
+    outline: 2px solid #0078d4; /* Add a focus outline */
+    outline-offset: 2px; /* Offset outline slightly */
+}
+
+/* Reset the focus outline for mouse users in the "Tech" section */
+#tech a:hover:focus {
+    outline: none; /* Remove outline on hover and focus */
+}
+
+
+
+
+
+
+
+
